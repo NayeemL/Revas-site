@@ -1,0 +1,21 @@
+body {
+  font-family: "Jost", sans-serif;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: baseline;
+}
+
+.revas-logo {
+  height: 40px;
+  width: auto;
+  cursor: pointer;
+}
+
+.search-icon {
+  position: absolute;
+  cursor: pointer;
+  right: 0%;
+  z-index: 9999;
+}

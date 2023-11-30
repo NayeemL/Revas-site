@@ -1,0 +1,131 @@
+.banner-img {
+  height: 450px;
+  width: 100%;
+}
+
+.banner-heading-wrap {
+  color: white;
+  position: absolute;
+  top: 535px;
+  left: 12px;
+  bottom: -5px;
+  z-index: 1;
+}
+
+.form-wrap {
+  display: flex;
+  justify-content: flex-end; /* Align to the right */
+  align-items: flex-start; /* Align to the top */
+  z-index: 1;
+  position: absolute;
+  top: 165px; /* Adjust the top spacing as needed */
+  right: 30px; /* Adjust the right spacing as needed */
+}
+
+.form-book {
+  background-color: white;  
+  border-radius: 5px;
+}
+
+.card-wrapper {
+  display: flex;
+}
+
+.carousel-item .card-wrapper .card {
+  margin: 0 0.5em;
+  width: calc(100% / 4);
+}
+
+.carousel-item .card-wrapper .card .image-wrapper {
+  height: 22vw;
+  overflow: hidden;
+}
+
+.carousel-item .card-wrapper .card .image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.trade-wrapper {
+  display: flex;
+  align-items: center;
+  min-height: 195px;
+  background: rgba(26, 145, 255, 0.03);
+}
+
+.trade-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.trade-icon {
+  width: 91px;
+  height: 91px;
+}
+
+.trade-info {
+  text-align: center;
+}
+
+.whatsapp-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.testimonials-wrapper {
+  z-index: -1;
+  min-height: 250px;
+  background: #1a91ff;
+  box-shadow: 0px 2px 32px 221px #1a91ff inset;
+  position: relative;
+}
+
+.testimonials-icon-wrapper {
+  position: absolute;
+  top: -40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonials-logo {
+  z-index: -1;
+  width: 150px;
+  height: 150px;
+}
+
+.testimonials-logo.left {
+  position: absolute;
+  left: 0;
+}
+
+.testimonials-logo.right {
+  position: absolute;
+  right: 0;
+}
+
+.testimonials-card-wrapper {
+  display: flex;
+}
+
+.carousel-item .testimonials-card-wrapper .card {
+  margin: 0 0.5em;
+  width: calc(100% / 3);
+}
+
+.carousel-item .testimonials-card-wrapper .card .testimonials-image-wrapper {
+  height: 22vw;
+  overflow: hidden;
+}
+
+.carousel-item
+  .testimonials-card-wrapper
+  .card
+  .testimonials-image-wrapper
+  img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -1,10 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+import Navbar from "./components/NavBar/navBar";
+import Home from "./components/pages/home";
+import WallBed from "./components/pages/wallBed";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <h2>Reva's WebSite</h2>
+    <div className="app">
+      <header>
+        <Navbar />
+      </header>
+      <Routes>
+        <Route path="/" element={<Home />} /> 
+        <Route path="/wallbed" element={<WallBed/>}/>
+      </Routes>
     </div>
   );
 }
